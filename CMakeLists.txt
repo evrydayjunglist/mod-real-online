@@ -8,6 +8,5 @@ set(scripts_STAT_SRCS
 )
 
 AC_ADD_SCRIPT("${scripts_STAT_SRCS}")
-AC_ADD_CONFIG_FILE(conf/mod_real_online.conf.dist)
 
 message(STATUS "-> module 'mod-real-online' loaded.")
